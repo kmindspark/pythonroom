@@ -1,6 +1,5 @@
 # author: kmindspark
-n = int (input ("What number would you like to check?"))
-tests = range (2, n)
+tests = range (2, 1001)
 prime = True
 
 if prime == True:
@@ -10,5 +9,3 @@ if prime == True:
 
 if prime == True:
 	print str (n) + " is prime."
-else:
-	print str (n) + " is composite."
