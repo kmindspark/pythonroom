@@ -3,7 +3,7 @@
 # largest distance'smallest distance
 # how many twin primes
 #sum of the distance between twin primes 17/19 to 41/43 => 41-19 
-
+totdiff = 0
 
 lastPrime = 2
 
@@ -22,9 +22,11 @@ for n in range (2, 1001):
 		total = total + n
 		print str (n) + " is prime."
 		
+		totdiff = totdiff + (n-lastPrime)
+		lastPrime = n
+		
 print str (total) + " is their sum."
 
-if prime == True:
-	totdiff = totdiff + (n-lastPrime)
-	lastPrime = n
-	print "totdiff"
+
+
+print totdiff
