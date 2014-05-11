@@ -1,4 +1,10 @@
 # author: kmindspark
+# average distance
+# largest distance'smallest distance
+# how many twin primes
+#sum of the distance between twin primes 17/19 to 41/43 => 41-19 
+
+
 lastPrime = 2
 
 total = 0
