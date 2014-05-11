@@ -1,5 +1,9 @@
 # author: kmindspark
 total = 0
+pdiff = 0
+diff = 0
+n = 0
+pn = 0
 for n in range (2, 1001):
 	
 	tests = range (2, n-1)
@@ -10,10 +14,11 @@ for n in range (2, 1001):
 			if n % t == 0:
 				prime = False
 			else:
-				diff=pdiff
-				n=pn
 				pdiff = n-pn
 				totdiff = pdiff + diff
+				diff=pdiff
+				n=pn
+				
 	
 	if prime == True:
 		total = total + n
