@@ -31,6 +31,11 @@ end = range (1,49)
 for x in end:
 	t1.forward(3)
 	t2.forward(3)
-	
-#t1.write("Happy Mother's Day")
+
+t1.color("white")
+t1.setpos (-45,-25)
+t1.write("Happy Mother's Day!")
+t1.setpos (-33,-45)
+t1.write("Love, Kaushik")
+
 
