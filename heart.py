@@ -1,8 +1,14 @@
 # author: kmindspark
 import turtle
+
+world=turtle.Screen()
+world.bgcolor("red")
 t1=turtle.Turtle()
 t2=turtle.Turtle()
 
+
+t1.hideturtle()
+t2.hideturtle()
 
 t1.color("blue")
 t2.color("blue")
@@ -20,7 +26,11 @@ for i in numbers:
 	for n in angles:
 		t1.right(1+n)
 		t2.left(1+n)
+
+end = range (1,49)
+for x in end:
+	t1.forward(3)
+	t2.forward(3)
 	
-t1.forward(145)
-t2.forward(145)
-	
+#t1.write("Happy Mother's Day")
+
