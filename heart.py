@@ -21,6 +21,6 @@ for i in numbers:
 		t1.right(1+n)
 		t2.left(1+n)
 	
-t1.forward(130)
-t2.forward(120)
+t1.forward(145)
+t2.forward(145)
 	
